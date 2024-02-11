@@ -1,0 +1,186 @@
+* { 
+    font-family: 'League Spartan', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-model-container {
+    background: rgb(248, 248, 248);
+}
+
+.main-model {
+    display: flex;
+    justify-content: center;
+    padding: 0px 230px 219px 133px;
+    gap: 62px;
+}
+
+.main-model-text {
+    padding-top: 100px;
+}
+
+.author {
+    color: rgb(22, 21, 21);
+    font-size: 24px;
+    font-weight: 300;
+    padding-bottom: 53px;
+}
+
+.main-model-title {
+    color: rgb(39, 39, 39);
+    font-size: 250px;
+    font-weight: 300;
+    line-height: 230px;
+    padding-bottom: 43px;
+}
+
+.main-model-desc {
+    color: rgb(22, 21, 21);
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 155%;
+    text-align: left;
+    max-width: 575px;
+    padding-bottom: 63px;
+}
+
+.main-model-btn {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.main-model-buy-btn {
+    background: rgb(22, 21, 21);
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 29px;
+    padding: 35px 74px 35px 73px;
+    text-align: center;
+}
+
+.main-model-price {
+    background: #ffffff;
+    color: rgb(39, 39, 39);
+    font-family: League Spartan;
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
+    padding: 35px 74px 35px 73px;
+}
+
+.models-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.models-header-subtitle {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    height: 41px;
+}
+
+.models-header-title {
+    color: rgb(0, 0, 0);
+    font-size: 72px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.models-header {
+    padding-top: 10px;
+    padding-bottom: 84px;
+}
+
+.models-items {
+    display: flex;
+    flex-direction: column;
+    gap: 85px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-pic {
+    background: rgb(248, 248, 248);
+    padding: 110px 60px 110px 71px;
+    width: 417px;
+    max-height: 630px;
+    display: flex;
+    justify-content: center;
+}
+
+.item-pic-img {
+    max-width: 417px;
+    max-height: 630px;  
+}
+
+.item-title {
+    padding-top: 67px;
+    padding-bottom: 17px;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: center;
+}
+
+.item-text {
+    color: rgb(22, 21, 21);
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
+    max-width: 532px;
+    line-height: 155%;
+}
+
+.models-desc {
+    padding-top: 59px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.model-desc-title {
+    color: rgb(22, 21, 21);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 186%;
+    padding-bottom: 8.5px;
+}
+
+.model-desc-line {
+    width: 178.03px;
+    border: 1px solid rgb(112, 112, 112);
+}
+
+.model-desc-text {
+    padding-top: 49.5px;
+    color: rgb(22, 21, 21);
+    font-family: League Spartan;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 170%;
+    max-width: 520px;
+    text-align: center;
+}
+
+.models-container {
+    padding-bottom: 142px;
+}
+
+.models-desc-link {
+    text-decoration: underline;
+    color: goldenrod;
+}
