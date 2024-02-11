@@ -9,6 +9,8 @@ a {
 }
 
 .main-model-container {
+    display: flex;
+    justify-content: center;
     background: rgb(248, 248, 248);
 }
 
@@ -183,4 +185,103 @@ a {
 .models-desc-link {
     text-decoration: underline;
     color: goldenrod;
+}
+
+.main-model-buy-btn:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    transform: translateY(-0.35em);
+    transition: 0.25s;
+}
+
+.main-model-title-tablet {
+    display: none;
+}
+
+.main-model-title-phone {
+    display: none;
+}
+
+@media screen and (max-width: 1236px) {
+    .main-model {
+        align-items: center;
+        padding: 0px;
+        padding-bottom: 133px;
+    }    
+}
+
+@media screen and (max-width: 1024px) {
+    .main-model-text {
+        padding-left: 33px;
+    }
+    .main-model-title {
+        font-size: 210px;
+    }
+    .main-model-text {
+        font-size: 29px;
+    }
+    .main-model-img-pic {
+        max-width: 350px;
+        padding-right: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-model-container {
+        align-content: center;
+    }
+    .main-model {
+        flex-direction: column-reverse;
+    }
+    .author,
+    .main-model-title {
+        display: none;
+    }
+    .main-model-text {
+        padding-top: 0px;
+    }
+    .main-model-title-phone {
+        display: block;
+        color: rgb(39, 39, 39);
+        font-size: 120px;
+        font-weight: 300;
+        line-height: 230px;
+        text-align: center;
+        background: rgb(248, 248, 248);
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .main-model-text {
+        padding-right: 33px;
+    }
+    .main-model-desc {
+        text-align: center;
+    }
+    .main-model-btn {
+        flex-direction: column;
+    }
+    .item-pic {
+        padding: 0;
+    }
+    .main-model-img-pic {
+        max-width: 350px;
+    }
+    .main-model-title-phone {
+        display: block;
+        color: rgb(39, 39, 39);
+        font-size: 90px;
+        font-weight: 300;
+        line-height: 130px;
+        text-align: center;
+        background: rgb(248, 248, 248);
+    }
+    .item-pic {
+        max-width: 350px;
+    }
+    .item-text {
+        font-size: 24px;
+    }
+    .model-desc-text {
+        font-size: 18px;
+    }
 }
